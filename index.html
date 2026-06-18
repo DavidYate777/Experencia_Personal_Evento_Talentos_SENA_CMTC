@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Batalla de Talentos · SENA CMTC</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-logo">
+      <span class="logo-sena">SENA</span>
+      <span class="logo-sep">·</span>
+      <span class="logo-cmtc">CMTC</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#home">Inicio</a></li>
+      <li><a href="#arte">Arte</a></li>
+      <li><a href="#musica">Música</a></li>
+      <li><a href="#competidores">Competidores</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO / HOME -->
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <img src="assets/Home_talentos.jpeg" alt="Evento Batalla de Talentos" class="hero-img" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Centro de Manufactura en Textil y Cuero</p>
+      <h1 class="hero-title" id="heroTitle">
+        <span class="title-line">BATALLA</span>
+        <span class="title-line accent">DE TALENTOS</span>
+      </h1>
+      <div class="hero-divider"></div>
+      <p class="hero-body">
+        Hoy, dejando a un lado las tecnologías más modernas y mi carrera como programador, 
+        quiero mostrarles algo diferente: los talentos ocultos de quienes se forman en el SENA. 
+        La vida también está en el talento innato de cada uno de nosotros.
+      </p>
+      <a href="#arte" class="hero-cta">Explorar el evento</a>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Desplaza</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- OBRAS DE ARTE -->
+  <section id="arte" class="section arte-section">
+    <div class="section-header">
+      <p class="section-eyebrow">Experiencia visual</p>
+      <h2 class="section-title">Obras de Arte</h2>
+      <p class="section-subtitle">Al ingreso del auditorio</p>
+    </div>
+    <div class="arte-grid">
+      <div class="arte-card">
+        <div class="arte-img-wrap">
+          <img src="assets/Obras_de_arte_1.jpeg" alt="Obra de arte - El corazón" />
+          <div class="arte-img-overlay">
+            <span>El Corazón</span>
+          </div>
+        </div>
+        <div class="arte-card-body">
+          <h3>El Corazón</h3>
+          <p>
+            Increíble representación de los lazos de la vida y los lazos del destino, 
+            plasmados en el órgano vital que nos da la vida. Una obra que habla en silencio 
+            y emociona con cada trazo.
+          </p>
+        </div>
+      </div>
+      <div class="arte-card">
+        <div class="arte-img-wrap">
+          <img src="assets/Obras_de_arte_2.jpeg" alt="Obra de arte - Retrato Afro" />
+          <div class="arte-img-overlay">
+            <span>Retrato Afro</span>
+          </div>
+        </div>
+        <div class="arte-card-body">
+          <h3>Retrato Afro</h3>
+          <p>
+            La cultura representada en su máximo esplendor: el corte clásico, los gustos 
+            y el idioma característico de una herencia que inspira. Sencillamente magnífico 
+            el nivel de esta pintura.
+          </p>
+        </div>
+      </div>
+    </div>
+    <blockquote class="arte-quote">
+      "Las habilidades artísticas de los aprendices de todas las fichas del centro 
+      estuvieron presentes desde el primer momento. Sin duda, una de mis experiencias 
+      favoritas del evento."
+    </blockquote>
+  </section>
+
+  <!-- SECCIÓN MUSICAL -->
+  <section id="musica" class="section musica-section">
+    <div class="musica-inner">
+      <div class="musica-text">
+        <p class="section-eyebrow">Presentación musical</p>
+        <h2 class="section-title light">El Saxofón<br /><em>habla por sí solo</em></h2>
+        <p class="musica-body">
+          Un competidor de la carrera ADSO demostró un talento musical 
+          profundamente marcado. Al escucharlo tocar se percibe su pasión 
+          por el instrumento: claridad, armonía y una presencia escénica 
+          que transmite tranquilidad y alegría al público.
+        </p>
+        <div class="musica-tag">
+          <span>🎷</span>
+          <span>ADSO</span>
+        </div>
+      </div>
+      <div class="musica-video-wrap">
+        <video
+          src="assets/VIDEO_MUSICA_TALENTOS.mp4"
+          controls
+          playsinline
+          poster="assets/Home_talentos.jpeg"
+          class="musica-video"
+        ></video>
+        <div class="video-label">Grabación en vivo — Batalla de Talentos SENA</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPETIDORES -->
+  <section id="competidores" class="section competidores-section">
+    <div class="section-header">
+      <p class="section-eyebrow">Ficha 3227025 · ADSO</p>
+      <h2 class="section-title">Mis Compañeros</h2>
+      <p class="section-subtitle">Orgulloso de compartir ficha con estos talentos</p>
+    </div>
+    <div class="competidores-grid">
+      <div class="competidor-card">
+        <div class="comp-img-wrap">
+          <img src="assets/Competidor_Andres_Riano.jpeg" alt="Andrés Felipe Riaño" />
+          <div class="comp-badge">Literatura</div>
+        </div>
+        <div class="comp-body">
+          <h3>Andrés Felipe Riaño</h3>
+          <p class="comp-obra">"Voy tarde para el Sena"</p>
+          <p>
+            Una persona increíble cuyo cuento refleja fielmente su personalidad. 
+            Me alegra mucho haber podido tomarme esta fotografía con él; espero 
+            que este sea un gran paso para seguir demostrando su talento a lo 
+            largo de su vida.
+          </p>
+        </div>
+      </div>
+      <div class="competidor-card">
+        <div class="comp-img-wrap">
+          <img src="assets/Competidor_Jimmy_Corzo.jpeg" alt="Jimmy Corzo" />
+          <div class="comp-badge">Música · Guitarra</div>
+        </div>
+        <div class="comp-body">
+          <h3>Jimmy Corzo</h3>
+          <p class="comp-obra">Guitarra · Batalla de Talentos</p>
+          <p>
+            Nos demuestra que los talentos salen a la luz desde la confianza 
+            y el amor por hacer las cosas bien. Le agradezco por permitirme 
+            tomar esta fotografía; que siga forjando su camino desde los valores 
+            que lo representan.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <p class="footer-title">BATALLA DE TALENTOS</p>
+        <p class="footer-sub">SENA · Centro de Manufactura en Textil y Cuero</p>
+      </div>
+      <div class="footer-info">
+        <p>Ficha <strong>3227025</strong> · ADSO</p>
+        <p>Bogotá, Colombia · 2026</p>
+      </div>
+    </div>
+    <div class="footer-line"></div>
+    <p class="footer-copy">Sitio creado con orgullo por un aprendiz SENA.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
